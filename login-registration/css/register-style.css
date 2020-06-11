@@ -1,0 +1,113 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/pitch.jpg); 
+	height: 100vh;
+	margin:0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width: 500px;
+	height: 700px;
+	max-height: 700px;
+	box-sizing: border-box;
+	align-content:center;
+	margin:auto;
+	margin-top: 50px;
+	padding: 40px 30px;
+	border: 10px ridge green;
+	border-radius: 20px;
+
+}
+.form h1{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 0px;
+}
+.InputBox input{
+	width: 80%;
+	height: 30px;
+	margin-left :30px;
+	margin-bottom: 5px;
+	border:0px;
+	border-bottom: 1px solid #000;
+	font-size: 16px;
+	font-color: #000;
+	align-items: center;
+	font-family: 'Roboto','sans-serif';
+	background:#fff;
+}
+.form .InputBox p{
+	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-left: 30px;
+	padding: 0px;
+	font-family: 'Roboto','sans-serif';
+	font-size: 20px;
+	font-weight: bold;
+}
+.form button{
+	margin-left: 80px;
+	margin-top: 10px;
+	width: 200px;
+	height: 70px;
+	font-size: 22px;
+	font-weight: bold;
+	background: #f54ef4;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.form button:hover{
+	color:#fff;
+	background:green;
+}
+.form .message{
+	color: blue;
+	font-size: 16px;
+
+}
+.form .message a{
+	color: #4CAF50;
+	text-decoration: none;
+	font-size: 16px;
+}
+.form .message a:hover{
+	color: coral;
+	text-decoration: none;
+}
+.error{
+	width: 100%;
+	border: 0px solid #000;
+	color: #a94442 ;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	/*background:coral; */
+
+}
+.error p{
+	text-align: left;
+	margin: auto;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-left: 6px;
+}
+.error img{
+	width: 30px;
+	height: 15px;
+}
+.error h3{
+	font-weight: bold;
+	font-size: 20px;
+	font-color: #000;
+	text-align: center;
+	margin-bottom: 5px;
+}
